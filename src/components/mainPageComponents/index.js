@@ -7,6 +7,7 @@ export default class Main extends React.PureComponent {
 
   onAnswerClick = () => {
     this.setState({ buttonClicked: true });
+    
   };
 
   render() {
